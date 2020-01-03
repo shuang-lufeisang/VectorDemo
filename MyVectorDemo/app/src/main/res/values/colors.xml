@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="whiteBackground">#FFFFFF</color>
+    <!--字体的颜色，纯黑色-->
+    <color name="blackText">#333333</color>
+    <!--字体的颜色 黑色2 -->
+    <color name="blackText2">#666666</color>
+    <!--字体的颜色 黑色4-->
+    <color name="blackText4">#999999</color>
+
+    <color name="colorTheme">#ff470f</color>
+
+    <color name="orangeText">#fa8317</color>
+    <color name="redText">#dd5501</color>
+    <color name="greenText">#4dac52</color>
+
+
+    <color name="grayBackground">#F1F1F1</color>
+    <color name="grayBoundary">#dddddd</color>
+    <color name="grayLineDarker">#dddddd</color>
+    <color name="transparent_blue">#e785cef5</color>
+    <color name="blueText">#435788</color>
+
+</resources>

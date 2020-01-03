@@ -1,0 +1,106 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="300.0"
+    android:viewportWidth="300.0"
+    >
+<!-- 边框 -->
+    <path
+        android:name="edge"
+        android:pathData="M0,0 h300,0 v0,300 h-300,0 v0,-300"
+        android:strokeColor="@color/orangeText"
+        android:strokeWidth="1" />
+
+    <!--  水平线  -->
+    <path
+        android:name="horizon_1"
+        android:pathData="M0,150 h300"
+        android:strokeColor="@color/whiteBackground"
+        android:strokeWidth="0.8" />
+
+    <!--  垂直线  -->
+    <path
+        android:name="vertical_1"
+        android:pathData="M150,0 v300 "
+        android:strokeColor="@color/whiteBackground"
+        android:strokeWidth="0.8" />
+
+
+    <!--
+          a / A 圆弧曲线：共7个参数
+          A rx, ry, x-axis-rotation, large-arc-flay, sweep-flag, x,y
+          rx,ry(椭圆的两个半径)
+          x-axis-rotation（x轴旋转角度）
+          large-arc-flay(是否是大弧 1-是；0-否)
+          sweep-flag(旋转方向 1-顺时针；0-逆时针)
+          x,y(终点)
+          -->
+    <path
+        android:name="oval_circle"
+        android:fillColor="@color/transparent_blue"
+        android:pathData="
+        M0,75
+        a75,75 0 1,1 150,0
+        a75,75 0 1,1 -150,0
+        "
+        android:strokeColor="@color/orangeText"
+        android:strokeWidth="1"
+        />
+       <!-- 起点 绝对坐标（0,75） 椭圆x、y半径均为75（圆）， x轴旋转角度0， 1大弧， 1顺时针，终点：相对位置 150,0 相对起点（0,75）=》终点坐标（150,75） -->
+
+
+    <!-- Y右移一个圆的距离 -->
+    <path
+        android:name="oval2"
+        android:fillColor="@color/orangeText"
+        android:pathData="
+        M150,75
+        a75,75 0 1,1 150,0
+        a75,75 0 1,1 -150,0
+        "
+        android:strokeColor="@color/orangeText"
+        />
+
+
+    <!-- 半圆改变终点位置小写：相对位置  -->
+    <path
+        android:name="oval3"
+        android:fillColor="@color/transparent_blue"
+        android:pathData="
+        M0,200
+        a75,75 0 1,1 150,65
+        "
+        android:strokeColor="@color/orangeText"
+        />
+
+    <path
+        android:fillColor="#26A69A"
+        android:pathData="M0,0 h108 v108 h-108z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9,0 L9,108"
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="0.8" />
+
+    <!--  起点(0,0)；
+          h108 向右（X轴正方向）移动108；
+          v108 向下（Y轴正方向）移动108；
+          h-108 想左（X轴负方向）移动 108；
+          z close 闭合；
+          -->
+
+</vector>
+<!--<vector-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:alpha="1.00"-->
+<!--    android:width="24dp"-->
+<!--    android:height="24dp"-->
+<!--    android:viewportHeight="24.0"-->
+<!--    android:viewportWidth="24.0"-->
+<!--    >-->
+<!--    <path-->
+<!--        android:fillColor="#FF000000"-->
+<!--        android:pathData="M10,20v-6h4v6h5v-8h3L12,3 2,12h3v8z"/>-->
+<!--</vector>-->
+<!--  首页 tabLayout 5个图标 - 中间图标 隐藏  -->
